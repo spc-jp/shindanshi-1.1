@@ -892,6 +892,63 @@
                         <div class="prompt-content">以下の雑多なメモを、マーケティングの「4P分析」または「3C分析」のフレームワークに当てはめて整理し直してください。不足している要素があれば指摘してください。</div>
                         <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
                     </div>
+                    <!-- ChatGPT追加分 -->
+                    <div class="prompt-item">
+                        <div class="prompt-label">課題の構造化（原因と結果の切り分け）</div>
+                        <div class="prompt-content">以下の現状メモを読み、課題を「症状」「原因」「真因候補」に分けて整理してください。
+
+そのうえで、真因を特定するために追加で聞くべき質問を7つ作ってください。
+
+固有名詞は伏せてください。
+（現状メモ）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">仮説ツリー作成（売上が伸びない）</div>
+                        <div class="prompt-content">売上が伸びない理由について、仮説ツリーを作成してください。
+
+「新規」「単価」「購入頻度」「解約」「客数」などの軸も使いながら、深掘りの枝を増やしてください。
+
+最後に、最初に検証すべき上位3仮説を理由付きで出してください。
+（業種・商品・状況）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">施策アイデアを10個（優先順位つき）</div>
+                        <div class="prompt-content">以下の課題と制約条件を踏まえて、施策アイデアを10個出してください。
+
+各施策に「期待効果」「コスト感」「実行難易度」「着手の順番」を付けてください。
+（課題）
+
+（制約：予算、人員、期間）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">提案書の章立て（3案提示型）</div>
+                        <div class="prompt-content">以下の支援テーマで、提案書の章立てを作ってください。
+
+結論を先に示し、A案（最短）B案（標準）C案（攻め）の3案で構成してください。
+
+各案に「狙い」「実施内容」「成果指標（KPI）」「リスク」を付けてください。
+（支援テーマ）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">経営者への説明文（専門用語なし）</div>
+                        <div class="prompt-content">以下の分析結果を、経営者に説明する文章に変換してください。
+
+専門用語は避け、たとえ話を1つ入れて、最後に「次に決めたいこと」を3つ提示してください。
+（分析結果）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">会議用アジェンダと論点整理</div>
+                        <div class="prompt-content">次回の打ち合わせ（60分）用に、アジェンダ案を作ってください。
+
+時間配分、話す順番、決めること、宿題（誰が何をいつまで）までセットで。
+（相談内容）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
                 </div>
             </details>
 
@@ -928,6 +985,61 @@
                         <div class="prompt-content">中小企業の物流倉庫において、低コストで導入可能なIoTやAIによる在庫管理・ピッキング効率化の事例を調査し、具体的なツール名や期待効果を教えてください。</div>
                         <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
                     </div>
+                    <!-- Gemini追加分 -->
+                    <div class="prompt-item">
+                        <div class="prompt-label">市場規模と成長性の一次調査</div>
+                        <div class="prompt-content">○○業界について、国内市場規模、成長率、主要プレイヤー、追い風・向かい風を一次調査でまとめてください。
+
+可能な範囲で出典URLも併記してください。
+（業界名、地域）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">競合の価格帯とメニュー比較（表形式）</div>
+                        <div class="prompt-content">○○地域で競合になりそうな事業者を3〜5社リストアップし、
+
+「価格帯」「提供メニュー」「強み」「集客導線（Web/SNS/広告）」を表で比較してください。
+
+出典URLも併記してください。
+（業種、地域、サービス名）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">補助金の候補整理（診断士向け）</div>
+                        <div class="prompt-content">以下の投資計画に使えそうな補助金・助成金を候補出しして、
+
+「対象経費」「要件」「公募時期」「採択の注意点」を簡潔に整理してください。
+
+公的サイトの出典URLも必ず付けてください。
+（投資計画）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">業界別のKPIと改善余地の目安</div>
+                        <div class="prompt-content">○○業界で一般的に見るKPI（売上、粗利率、回転率、在庫、稼働率など）を整理し、
+
+改善余地の見つけ方と、ヒアリングで確認すべきポイントをまとめてください。
+（業界）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">DXツール候補比較（低コスト優先）</div>
+                        <div class="prompt-content">中小企業が低コストで導入しやすいDXツールを、目的別に比較して提案してください。
+
+例：受発注、在庫、勤怠、会計、顧客管理、問い合わせ対応。
+
+「導入難易度」「月額目安」「向いている会社規模」も付けてください。
+（会社規模、目的）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">消費者トレンドと需要変化の要点</div>
+                        <div class="prompt-content">○○商品・サービスに関する消費者トレンドを、直近2〜3年の変化として整理してください。
+
+購買行動の変化、重視ポイント、SNS影響、価格感度などをまとめ、出典URLも付けてください。
+（商品・サービス）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
                 </div>
             </details>
 
@@ -962,6 +1074,57 @@
                     <div class="prompt-item">
                         <div class="prompt-label">会議議事録からの論点抽出</div>
                         <div class="prompt-content">過去の経営会議の議事録（複数ファイル）を基に、繰り返し議論されているが解決していない「未解決の課題」を時系列で整理し、意思決定が滞っている原因を推測してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <!-- NotebookLM追加分 -->
+                    <div class="prompt-item">
+                        <div class="prompt-label">決算書からの異常値検出（3期比較）</div>
+                        <div class="prompt-content">アップした決算書（複数期）から、前年差で変動が大きい科目を抽出し、
+
+原因仮説と追加で確認すべき資料を提示してください。
+
+断定は避け、確認項目として出してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">議事録から論点サマリ＋次アクション</div>
+                        <div class="prompt-content">この議事録を読み込み、
+
+論点サマリ（結論・未決事項）と、次アクション（担当・期限）を表で整理してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">現場ヒアリングメモの統合（重複整理）</div>
+                        <div class="prompt-content">複数のヒアリングメモを読み込み、重複内容を統合して、
+
+共通課題と部門別課題を分けて整理してください。
+
+最後に「追加で確認すべき質問」を10個作ってください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">提案書の根拠素材抽出（引用用）</div>
+                        <div class="prompt-content">資料群から、提案書に根拠として使える数値・事実・発言を抽出し、
+
+引用しやすい形（短文＋出典資料名）で一覧化してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">顧客の声・アンケートから価値仮説</div>
+                        <div class="prompt-content">顧客の声（レビュー、アンケート、問い合わせ）を読み込み、
+
+価値仮説（選ばれる理由）を3〜5個に要約してください。
+
+改善テーマも3つ提案してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">匿名化テンプレ（事例共有用）</div>
+                        <div class="prompt-content">この事例資料を、社内共有やセミナー用に匿名化してください。
+
+会社名、個人名、地域、数字など、特定につながる要素を置換し、
+
+文章の意味が崩れないように整えてください。</div>
                         <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
                     </div>
                 </div>
